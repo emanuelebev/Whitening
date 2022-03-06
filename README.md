@@ -16,4 +16,4 @@ Cartella SVD alternative whitening contiene un algoritmo di whitening alternativ
 
 Cartella Multi whitening scelta contiene un algoritmo di whitening che implementa i 3 metodi di whitening, ovvero ZCA, PCA e Cholesky in maniera rapida ma poco specifica. Implementato sia per file in input di tipo json e CSV.
 
-Cartella Basic Whitening 
+Cartella Basic Whitening contiene due algoritmi di whitening che simulano lo "sbiancamento" di punti in un asse cartesiano (in particolare 5 e 1000 punti), mostrando anche il risultato della distribuzione dei suddetti punti dopo aver effettuato i calcoli, in formato jpg utilizzando la libreria di python matplotlib.
