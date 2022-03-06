@@ -1,5 +1,5 @@
 # Whitening
-Python whitening algorithm
+La repository in questione fa riferimento alla relazione di tirocinio: Algoritmi di Whitening
 
 - whintening_eigendecomp: algortimo di whitening che calcola autovalori e autovettori usando la eigendecomposition
 - whitening_SVD: algortimo di whitening che calcola autovalori e autovettori usando SVD (Singular Value Decomposition)
