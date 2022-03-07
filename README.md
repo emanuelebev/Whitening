@@ -18,6 +18,6 @@ Cartella Multi whitening scelta contiene un algoritmo di whitening che implement
 
 Cartella Basic Whitening contiene due algoritmi di whitening che simulano lo "sbiancamento" di punti in un asse cartesiano (in particolare 5 e 1000 punti), mostrando anche il risultato della distribuzione dei suddetti punti dopo aver effettuato i calcoli, in formato png utilizzando la libreria di python matplotlib. Queste immagini si trovano nella cartella plot img.
 
-Cartella Verify contiene gli algoritmi per verificare la correttezza delle equazioni presenti nella parte teorica del whitening. In questo algoritmo viene utilizzata la matrice dim.json, 11 righe e 10 colonne. Tutte le matrici calcolate dall'algoritmo sono presenti nella cartella e descritte dal file
+Cartella Verify contiene gli algoritmi per verificare la correttezza delle equazioni presenti nella parte teorica del whitening. In questo algoritmo viene utilizzata la matrice dim.json, 11 righe e 10 colonne. Tutte le matrici calcolate dall'algoritmo sono presenti nella cartella Result e descritte dal file theory.pdf
 
 Cartella input CSV ci sono alcuni file CVS per l'input degli algoritmi, stessa cosa per la cartella input txt
