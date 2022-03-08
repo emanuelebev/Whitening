@@ -69,11 +69,6 @@ Identity = np.dot(np.dot(Lt, Sig), Lt.T)
 with open("data/Result/Cholesky/L^T Sigma L.csv", 'w', newline='') as csvfile: 
     csvwriter = csv.writer(csvfile) 
     csvwriter.writerows(Identity.round(4))
-
-cov_Cho = np.cov(x, rowvar=True, bias=True)
-with open("data/Result/Cholesky/cov_Cho.csv", 'w', newline='') as csvfile: 
-    csvwriter = csv.writer(csvfile) 
-    csvwriter.writerows(cov_Cho.real.round(4))
     
 with open("data/Result/Cholesky/Cholesky_result.csv", 'w', newline='') as csvfile: 
     csvwriter = csv.writer(csvfile) 
