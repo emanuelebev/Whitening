@@ -21,3 +21,6 @@ Cartella Basic Whitening contiene due algoritmi di whitening che simulano lo "sb
 Cartella Verify contiene gli algoritmi per verificare la correttezza delle equazioni presenti nella parte teorica del whitening. In questo algoritmo viene utilizzata la matrice dim.json, 11 righe e 10 colonne. Tutte le matrici calcolate dall'algoritmo sono presenti nella cartella Result e descritte dal file theory.pdf
 
 Cartella input CSV ci sono alcuni file CVS per l'input degli algoritmi, stessa cosa per la cartella input txt
+
+Per i test di correttezza è stato susato il programma verify_log.py che verifica l'equazione 2 in termini di percentuale di errore, equazione 3 ed equazione 4 in termini di errore medio dalla matrice ideale.
+Tutti i log, quindi le verifiche si trovano nel file log.txt
