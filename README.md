@@ -22,5 +22,5 @@ Cartella Verify contiene gli algoritmi per verificare la correttezza delle equaz
 
 Cartella input CSV ci sono alcuni file CVS per l'input degli algoritmi, stessa cosa per la cartella input txt
 
-Per i test di correttezza è stato susato il programma verify_log.py che verifica l'equazione 2 in termini di percentuale di errore, equazione 3 ed equazione 4 in termini di errore medio dalla matrice ideale.
+Per i test di correttezza è stato susato il programma verify_log.py che verifica l'equazione 2 in termini di percentuale di errore, equazione 3 ed equazione 4 in termini di errore medio rispetto alla matrice ideale.
 Tutti i log, quindi le verifiche si trovano nel file log.txt
